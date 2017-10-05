@@ -11,6 +11,9 @@
 @interface ViewController : UIViewController
 {
     IBOutlet UILabel *label_AvailableLawyers;
+    IBOutlet UITableView *tableView;
+    IBOutlet NSLayoutConstraint *objHeightOfImage;
+    float maxHeight;
 }
 
 @end

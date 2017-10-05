@@ -15,6 +15,9 @@
 		8EE14AAF1F826D1200F1DC86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE14AAE1F826D1200F1DC86 /* main.m */; };
 		8EE14AB91F826D1200F1DC86 /* LawyerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE14AB81F826D1200F1DC86 /* LawyerTests.m */; };
 		8EE14AC41F826D1200F1DC86 /* LawyerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE14AC31F826D1200F1DC86 /* LawyerUITests.m */; };
+		8EED09371F86B75000EF93E5 /* LawyerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EED09361F86B75000EF93E5 /* LawyerTableViewCell.m */; };
+		8EED093A1F86BD7400EF93E5 /* BlankTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EED09391F86BD7400EF93E5 /* BlankTableViewCell.m */; };
+		8EED093D1F86C78600EF93E5 /* PopupUtilityClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EED093B1F86C78600EF93E5 /* PopupUtilityClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,28 @@
 		8EE14ABF1F826D1200F1DC86 /* LawyerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LawyerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE14AC31F826D1200F1DC86 /* LawyerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LawyerUITests.m; sourceTree = "<group>"; };
 		8EE14AC51F826D1200F1DC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EED09251F86A70800EF93E5 /* Blogger Sans-Light Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Light Italic.ttf"; sourceTree = "<group>"; };
+		8EED09261F86A70800EF93E5 /* Blogger Sans-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Italic.otf"; sourceTree = "<group>"; };
+		8EED09271F86A70800EF93E5 /* Blogger Sans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Bold.ttf"; sourceTree = "<group>"; };
+		8EED09281F86A70800EF93E5 /* Blogger Sans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans.otf"; sourceTree = "<group>"; };
+		8EED09291F86A70800EF93E5 /* Blogger Sans-Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Light Italic.otf"; sourceTree = "<group>"; };
+		8EED092A1F86A70800EF93E5 /* Blogger Sans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Italic.ttf"; sourceTree = "<group>"; };
+		8EED092B1F86A70800EF93E5 /* Blogger Sans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Bold.otf"; sourceTree = "<group>"; };
+		8EED092C1F86A70800EF93E5 /* Blogger Sans-Medium Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Medium Italic.ttf"; sourceTree = "<group>"; };
+		8EED092D1F86A70800EF93E5 /* Blogger Sans-Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Bold Italic.ttf"; sourceTree = "<group>"; };
+		8EED092E1F86A70800EF93E5 /* Blogger Sans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Light.ttf"; sourceTree = "<group>"; };
+		8EED092F1F86A70800EF93E5 /* Blogger Sans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Medium.ttf"; sourceTree = "<group>"; };
+		8EED09301F86A70800EF93E5 /* Blogger Sans.ttf.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans.ttf.ttf"; sourceTree = "<group>"; };
+		8EED09311F86A70800EF93E5 /* Blogger Sans-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Light.otf"; sourceTree = "<group>"; };
+		8EED09321F86A70800EF93E5 /* Blogger Sans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Medium.otf"; sourceTree = "<group>"; };
+		8EED09331F86A70800EF93E5 /* Blogger Sans-Medium Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Medium Italic.otf"; sourceTree = "<group>"; };
+		8EED09341F86A70800EF93E5 /* Blogger Sans-Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Bold Italic.otf"; sourceTree = "<group>"; };
+		8EED09351F86B75000EF93E5 /* LawyerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LawyerTableViewCell.h; sourceTree = "<group>"; };
+		8EED09361F86B75000EF93E5 /* LawyerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LawyerTableViewCell.m; sourceTree = "<group>"; };
+		8EED09381F86BD7400EF93E5 /* BlankTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlankTableViewCell.h; sourceTree = "<group>"; };
+		8EED09391F86BD7400EF93E5 /* BlankTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlankTableViewCell.m; sourceTree = "<group>"; };
+		8EED093B1F86C78600EF93E5 /* PopupUtilityClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupUtilityClass.m; sourceTree = "<group>"; };
+		8EED093C1F86C78600EF93E5 /* PopupUtilityClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupUtilityClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +126,17 @@
 		8EE14A9E1F826D1200F1DC86 /* Lawyer */ = {
 			isa = PBXGroup;
 			children = (
+				8EED09241F86A70800EF93E5 /* Fonts */,
 				8EE14A9F1F826D1200F1DC86 /* AppDelegate.h */,
 				8EE14AA01F826D1200F1DC86 /* AppDelegate.m */,
+				8EED093C1F86C78600EF93E5 /* PopupUtilityClass.h */,
+				8EED093B1F86C78600EF93E5 /* PopupUtilityClass.m */,
 				8EE14AA21F826D1200F1DC86 /* ViewController.h */,
 				8EE14AA31F826D1200F1DC86 /* ViewController.m */,
+				8EED09351F86B75000EF93E5 /* LawyerTableViewCell.h */,
+				8EED09361F86B75000EF93E5 /* LawyerTableViewCell.m */,
+				8EED09381F86BD7400EF93E5 /* BlankTableViewCell.h */,
+				8EED09391F86BD7400EF93E5 /* BlankTableViewCell.m */,
 				8EE14AA51F826D1200F1DC86 /* Main.storyboard */,
 				8EE14AA81F826D1200F1DC86 /* Assets.xcassets */,
 				8EE14AAA1F826D1200F1DC86 /* LaunchScreen.storyboard */,
@@ -130,6 +162,29 @@
 				8EE14AC51F826D1200F1DC86 /* Info.plist */,
 			);
 			path = LawyerUITests;
+			sourceTree = "<group>";
+		};
+		8EED09241F86A70800EF93E5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8EED09251F86A70800EF93E5 /* Blogger Sans-Light Italic.ttf */,
+				8EED09261F86A70800EF93E5 /* Blogger Sans-Italic.otf */,
+				8EED09271F86A70800EF93E5 /* Blogger Sans-Bold.ttf */,
+				8EED09281F86A70800EF93E5 /* Blogger Sans.otf */,
+				8EED09291F86A70800EF93E5 /* Blogger Sans-Light Italic.otf */,
+				8EED092A1F86A70800EF93E5 /* Blogger Sans-Italic.ttf */,
+				8EED092B1F86A70800EF93E5 /* Blogger Sans-Bold.otf */,
+				8EED092C1F86A70800EF93E5 /* Blogger Sans-Medium Italic.ttf */,
+				8EED092D1F86A70800EF93E5 /* Blogger Sans-Bold Italic.ttf */,
+				8EED092E1F86A70800EF93E5 /* Blogger Sans-Light.ttf */,
+				8EED092F1F86A70800EF93E5 /* Blogger Sans-Medium.ttf */,
+				8EED09301F86A70800EF93E5 /* Blogger Sans.ttf.ttf */,
+				8EED09311F86A70800EF93E5 /* Blogger Sans-Light.otf */,
+				8EED09321F86A70800EF93E5 /* Blogger Sans-Medium.otf */,
+				8EED09331F86A70800EF93E5 /* Blogger Sans-Medium Italic.otf */,
+				8EED09341F86A70800EF93E5 /* Blogger Sans-Bold Italic.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +320,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EED093D1F86C78600EF93E5 /* PopupUtilityClass.m in Sources */,
+				8EED093A1F86BD7400EF93E5 /* BlankTableViewCell.m in Sources */,
 				8EE14AA41F826D1200F1DC86 /* ViewController.m in Sources */,
 				8EE14AAF1F826D1200F1DC86 /* main.m in Sources */,
 				8EE14AA11F826D1200F1DC86 /* AppDelegate.m in Sources */,
+				8EED09371F86B75000EF93E5 /* LawyerTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,13 +489,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = M5DN96F67U;
 				INFOPLIST_FILE = Lawyer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AM.Lawyer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "3ea5081f-0d2c-43e6-ba93-fa9272bb7683";
+				PROVISIONING_PROFILE_SPECIFIER = WildCard_AnkitMehta;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -447,13 +506,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = M5DN96F67U;
 				INFOPLIST_FILE = Lawyer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AM.Lawyer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "3ea5081f-0d2c-43e6-ba93-fa9272bb7683";
+				PROVISIONING_PROFILE_SPECIFIER = WildCard_AnkitMehta;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
