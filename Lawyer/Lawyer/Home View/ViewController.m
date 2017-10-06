@@ -10,7 +10,7 @@
 #import "PopupUtilityClass.h"
 #import "LawyerTableViewCell.h"
 #import "BlankTableViewCell.h"
-
+#import "LawyerDetailViewController.h"
 @interface ViewController ()
 {
     NSMutableArray *tableArray;
@@ -21,12 +21,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+    [[self navigationController] setNavigationBarHidden:YES animated:NO];
+
     maxHeight = objHeightOfImage.constant;
     tableArray = [NSMutableArray new];
     [PopupUtilityClass addTempDataToArray:tableArray];
     tableView.separatorColor = [UIColor clearColor];
-
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 
@@ -62,6 +63,14 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:false];
+    if (indexPath.row > 0) {
+        NSInteger originalIndex = indexPath.row-1;
+        NSDictionary *dict = [tableArray objectAtIndex:originalIndex];
+        LawyerDetailViewController *objDetail = [self.storyboard instantiateViewControllerWithIdentifier:@"LawyerDetailViewController"];
+        objDetail.dictLawyerDetail = dict;
+        [self.navigationController pushViewController:objDetail animated:YES];
+        
+    }
 }
 -  (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {

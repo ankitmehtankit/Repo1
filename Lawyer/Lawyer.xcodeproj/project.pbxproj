@@ -18,6 +18,7 @@
 		8EED09371F86B75000EF93E5 /* LawyerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EED09361F86B75000EF93E5 /* LawyerTableViewCell.m */; };
 		8EED093A1F86BD7400EF93E5 /* BlankTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EED09391F86BD7400EF93E5 /* BlankTableViewCell.m */; };
 		8EED093D1F86C78600EF93E5 /* PopupUtilityClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EED093B1F86C78600EF93E5 /* PopupUtilityClass.m */; };
+		ED06EC0D1F878D97005F0FE1 /* LawyerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED06EC0C1F878D97005F0FE1 /* LawyerDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,8 @@
 		8EED09391F86BD7400EF93E5 /* BlankTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlankTableViewCell.m; sourceTree = "<group>"; };
 		8EED093B1F86C78600EF93E5 /* PopupUtilityClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupUtilityClass.m; sourceTree = "<group>"; };
 		8EED093C1F86C78600EF93E5 /* PopupUtilityClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupUtilityClass.h; sourceTree = "<group>"; };
+		ED06EC0B1F878D97005F0FE1 /* LawyerDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LawyerDetailViewController.h; sourceTree = "<group>"; };
+		ED06EC0C1F878D97005F0FE1 /* LawyerDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LawyerDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,14 +132,11 @@
 				8EED09241F86A70800EF93E5 /* Fonts */,
 				8EE14A9F1F826D1200F1DC86 /* AppDelegate.h */,
 				8EE14AA01F826D1200F1DC86 /* AppDelegate.m */,
-				8EED093C1F86C78600EF93E5 /* PopupUtilityClass.h */,
-				8EED093B1F86C78600EF93E5 /* PopupUtilityClass.m */,
-				8EE14AA21F826D1200F1DC86 /* ViewController.h */,
-				8EE14AA31F826D1200F1DC86 /* ViewController.m */,
-				8EED09351F86B75000EF93E5 /* LawyerTableViewCell.h */,
-				8EED09361F86B75000EF93E5 /* LawyerTableViewCell.m */,
-				8EED09381F86BD7400EF93E5 /* BlankTableViewCell.h */,
-				8EED09391F86BD7400EF93E5 /* BlankTableViewCell.m */,
+				ED06EC0B1F878D97005F0FE1 /* LawyerDetailViewController.h */,
+				ED06EC0C1F878D97005F0FE1 /* LawyerDetailViewController.m */,
+				ED06EC091F87864D005F0FE1 /* Common Utility Class */,
+				ED06EC0A1F87865A005F0FE1 /* Home View */,
+				ED06EC081F878630005F0FE1 /* TableView Cells */,
 				8EE14AA51F826D1200F1DC86 /* Main.storyboard */,
 				8EE14AA81F826D1200F1DC86 /* Assets.xcassets */,
 				8EE14AAA1F826D1200F1DC86 /* LaunchScreen.storyboard */,
@@ -185,6 +185,35 @@
 				8EED09341F86A70800EF93E5 /* Blogger Sans-Bold Italic.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ED06EC081F878630005F0FE1 /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8EED09351F86B75000EF93E5 /* LawyerTableViewCell.h */,
+				8EED09361F86B75000EF93E5 /* LawyerTableViewCell.m */,
+				8EED09381F86BD7400EF93E5 /* BlankTableViewCell.h */,
+				8EED09391F86BD7400EF93E5 /* BlankTableViewCell.m */,
+			);
+			path = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		ED06EC091F87864D005F0FE1 /* Common Utility Class */ = {
+			isa = PBXGroup;
+			children = (
+				8EED093C1F86C78600EF93E5 /* PopupUtilityClass.h */,
+				8EED093B1F86C78600EF93E5 /* PopupUtilityClass.m */,
+			);
+			path = "Common Utility Class";
+			sourceTree = "<group>";
+		};
+		ED06EC0A1F87865A005F0FE1 /* Home View */ = {
+			isa = PBXGroup;
+			children = (
+				8EE14AA21F826D1200F1DC86 /* ViewController.h */,
+				8EE14AA31F826D1200F1DC86 /* ViewController.m */,
+			);
+			path = "Home View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +355,7 @@
 				8EE14AAF1F826D1200F1DC86 /* main.m in Sources */,
 				8EE14AA11F826D1200F1DC86 /* AppDelegate.m in Sources */,
 				8EED09371F86B75000EF93E5 /* LawyerTableViewCell.m in Sources */,
+				ED06EC0D1F878D97005F0FE1 /* LawyerDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
