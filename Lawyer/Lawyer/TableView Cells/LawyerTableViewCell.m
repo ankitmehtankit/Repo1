@@ -24,6 +24,10 @@
     [self.cornerView setBackgroundColor:[UIColor whiteColor]];
     // Configure the view for the selected state
 }
+-(void) setHighlighted:(BOOL)highlighted animated:(BOOL)animated {
+    [super setHighlighted:highlighted animated:animated];
+    [self.cornerView setBackgroundColor:[UIColor whiteColor]];
+}
 
 -(void) setUpCellWithDict: (NSDictionary *)dict {
     shadowView.layer.shadowColor = [UIColor blackColor].CGColor;

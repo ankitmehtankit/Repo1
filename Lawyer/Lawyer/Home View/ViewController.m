@@ -80,7 +80,6 @@
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    NSLog(@"Scrollview did scroll= %f",scrollView.contentOffset.y);
     if (maxHeight-scrollView.contentOffset.y > 0) {
         objHeightOfImage.constant = maxHeight-scrollView.contentOffset.y;
     }
